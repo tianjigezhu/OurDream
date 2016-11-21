@@ -1,0 +1,216 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sword2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\temp\debug\Script1.res" /d "_DEBUG" "C:\Documents and Settings\MY\桌面\sword2_source\source\Script1.rc"" 
+Creating temporary file "C:\DOCUME~1\MY\LOCALS~1\Temp\RSP1D88.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"..\temp\debug\\" /Fp"..\temp\debug\sword2.pch" /YX /Fo"..\temp\debug\\" /Fd"..\temp\debug\\" /FD /GZ /c 
+"C:\Documents and Settings\MY\桌面\sword2_source\source\Cursor.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\events.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\FindPath.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\Main.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\map.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\message.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\Node.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\npc.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\Queue.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\role.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\script.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\Stack.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\talk.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\Tree.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\gamelib\Ddutil.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\gamelib\Gp_alpha.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\gamelib\Gp_ani.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\gamelib\Gp_avi.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\gamelib\Gp_draw.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\gamelib\Gp_iniset.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\gamelib\Gp_init.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\gamelib\Gp_input.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\gamelib\Gp_music.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\gamelib\Gp_other.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\gamelib\Gp_sound.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\gamelib\Gp_text.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\interface\button.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\interface\check.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\interface\listwindow.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\interface\msgwindow.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\interface\proess.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\interface\scroll.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\interface\window.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\menu\arm.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\menu\goods.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\menu\help.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\menu\loadsave.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\Menu\Magic.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\menu\menu.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\menu\menutop.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\menu\rolesel.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\menu\state.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\menu\system.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\menu\title.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\Fight\FightMagic.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MY\LOCALS~1\Temp\RSP1D88.tmp" 
+Creating temporary file "C:\DOCUME~1\MY\LOCALS~1\Temp\RSP1D89.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"..\temp\debug\Fight/" /Fp"..\temp\debug\sword2.pch" /YX /Fo"..\temp\debug\Fight/" /Fd"..\temp\debug\Fight/" /FD /GZ /c 
+"C:\Documents and Settings\MY\桌面\sword2_source\source\fight\Fight.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\fight\fightgoods.cpp"
+"C:\Documents and Settings\MY\桌面\sword2_source\source\fight\FightInit.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MY\LOCALS~1\Temp\RSP1D89.tmp" 
+Creating temporary file "C:\DOCUME~1\MY\LOCALS~1\Temp\RSP1D8A.tmp" with contents
+[
+ddraw.lib dsound.lib dxguid.lib winmm.lib vfw32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\temp\debug\sword2_debug.pdb" /debug /machine:I386 /out:"..\release\sword2_debug.exe" /pdbtype:sept 
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Cursor.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\events.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\FindPath.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Main.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\map.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\message.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Node.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\npc.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Queue.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\role.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\script.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Stack.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\talk.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Tree.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Ddutil.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Gp_alpha.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Gp_ani.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Gp_avi.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Gp_draw.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Gp_iniset.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Gp_init.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Gp_input.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Gp_music.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Gp_other.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Gp_sound.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Gp_text.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\button.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\check.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\listwindow.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\msgwindow.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\proess.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\scroll.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\window.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\arm.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\goods.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\help.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\loadsave.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Magic.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\menu.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\menutop.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\rolesel.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\state.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\system.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\title.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Fight\Fight.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Fight\fightgoods.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Fight\FightInit.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\FightMagic.obj"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\Script1.res"
+"\Documents and Settings\MY\桌面\sword2_source\temp\debug\mapedit\mapedit.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\MY\LOCALS~1\Temp\RSP1D8A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Cursor.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+events.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+FindPath.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Main.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+map.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+message.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Node.cpp
+npc.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Queue.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+role.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+script.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Stack.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+talk.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Tree.cpp
+Ddutil.cpp
+Gp_alpha.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Gp_ani.cpp
+Gp_avi.cpp
+Gp_draw.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Gp_iniset.cpp
+Gp_init.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Gp_input.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Gp_music.cpp
+Gp_other.cpp
+Gp_sound.cpp
+Gp_text.cpp
+button.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+check.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+listwindow.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+msgwindow.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+proess.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+scroll.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+window.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+arm.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+goods.cpp
+help.cpp
+loadsave.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Magic.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+menu.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+menutop.cpp
+rolesel.cpp
+state.cpp
+system.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+title.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+FightMagic.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Compiling...
+Fight.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+fightgoods.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+FightInit.cpp
+d:\study\microsoft visual studio\dxsdk9\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Linking...
+
+
+
+<h3>Results</h3>
+sword2_debug.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

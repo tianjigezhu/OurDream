@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mapedit", "MAPEDIT\mapedit.vcxproj", "{3ED910D1-F5BC-A58B-CF03-0FF419C349AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sword2", "sword2.vcxproj", "{3D296EB4-1F0A-FB0E-98C6-CE6E9E014931}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ED910D1-F5BC-A58B-CF03-0FF419C349AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3ED910D1-F5BC-A58B-CF03-0FF419C349AF}.Release|Win32.ActiveCfg = Release|Win32
+		{3D296EB4-1F0A-FB0E-98C6-CE6E9E014931}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D296EB4-1F0A-FB0E-98C6-CE6E9E014931}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{14d98ddd-e8e1-46cc-90af-006eff7a3efa}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d4ef733b-3527-435b-9945-b227b8fe5578}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4bddfea5-423c-4a5e-b29f-67b6d38e686a}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="GameLib">
+      <UniqueIdentifier>{6b484c68-82ff-401d-8b66-3e73aa31c90b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{0ea6803e-21de-4722-aff6-c6bca2167c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{d087cc9c-6774-403a-a561-769c337f3d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fight">
+      <UniqueIdentifier>{29ef406e-8963-42ed-b751-9c8057c03032}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="events.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="npc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="role.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="talk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib\Ddutil.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib\Gp_alpha.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib\Gp_ani.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib\Gp_avi.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib\Gp_draw.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib\Gp_iniset.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib\Gp_init.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib\Gp_input.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib\Gp_music.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib\Gp_other.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib\Gp_sound.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib\Gp_text.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\button.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\check.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\listwindow.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\msgwindow.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\proess.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\scroll.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\window.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Magic.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\arm.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\goods.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\help.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\loadsave.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menutop.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\rolesel.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\state.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\system.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\title.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="fight\Fight.cpp">
+      <Filter>Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="fight\FightInit.cpp">
+      <Filter>Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="Fight\FightMagic.cpp">
+      <Filter>Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="fight\fightgoods.cpp">
+      <Filter>Fight</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="findpath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="npc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="role.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="talk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Goldpoint.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Goldpoint2.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Gp_alpha.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Gp_ani.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Gp_avi.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Gp_draw.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Gp_iniset.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Gp_init.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Gp_input.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Gp_music.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Gp_other.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Gp_sound.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\Gp_text.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib\ddutil.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\button.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\check.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\interface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\interface2.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\listwindow.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\msgwindow.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\proess.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\scroll.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\window.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Magic.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\arm.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\goods.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\help.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\loadsave.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu_inc.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu_inc2.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menutop.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\rolesel.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\state.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\system.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\title.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="fight\Fight.h">
+      <Filter>Fight</Filter>
+    </ClInclude>
+    <ClInclude Include="Fight\FightMagic.h">
+      <Filter>Fight</Filter>
+    </ClInclude>
+    <ClInclude Include="fight\fightgoods.h">
+      <Filter>Fight</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sword.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="README.TXT" />
+    <None Include="..\圣II历程 －打造双刃剑.doc" />
+    <None Include="..\圣二源程序导读.doc" />
+    <None Include="..\打造你自己的RPG.doc" />
+  </ItemGroup>
+</Project>

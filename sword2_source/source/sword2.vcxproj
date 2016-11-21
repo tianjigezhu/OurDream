@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\temp\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\temp\debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\temp\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\temp\release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\..\temp\debug/sword2.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\temp\debug/</AssemblerListingLocation>
+      <ObjectFileName>.\..\temp\debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\temp\debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>ddraw.lib;dsound.lib;dxguid.lib;winmm.lib;vfw32.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\release\sword2_debug.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\..\temp\debug/sword2_debug.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\temp\debug/sword2.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\..\temp\release/sword2.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\temp\release/</AssemblerListingLocation>
+      <ObjectFileName>.\..\temp\release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\temp\release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>ddraw.lib;dsound.lib;dxguid.lib;winmm.lib;odbc32.lib;odbccp32.lib;vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\release\sword2.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\..\temp\release/sword2.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\temp\release/sword2.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Cursor.cpp" />
+    <ClCompile Include="FindPath.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="events.cpp" />
+    <ClCompile Include="map.cpp" />
+    <ClCompile Include="message.cpp" />
+    <ClCompile Include="npc.cpp" />
+    <ClCompile Include="role.cpp" />
+    <ClCompile Include="script.cpp" />
+    <ClCompile Include="talk.cpp" />
+    <ClCompile Include="gamelib\Ddutil.cpp" />
+    <ClCompile Include="gamelib\Gp_alpha.cpp" />
+    <ClCompile Include="gamelib\Gp_ani.cpp" />
+    <ClCompile Include="gamelib\Gp_avi.cpp" />
+    <ClCompile Include="gamelib\Gp_draw.cpp" />
+    <ClCompile Include="gamelib\Gp_iniset.cpp" />
+    <ClCompile Include="gamelib\Gp_init.cpp" />
+    <ClCompile Include="gamelib\Gp_input.cpp" />
+    <ClCompile Include="gamelib\Gp_music.cpp" />
+    <ClCompile Include="gamelib\Gp_other.cpp" />
+    <ClCompile Include="gamelib\Gp_sound.cpp" />
+    <ClCompile Include="gamelib\Gp_text.cpp" />
+    <ClCompile Include="interface\button.cpp" />
+    <ClCompile Include="interface\check.cpp" />
+    <ClCompile Include="interface\listwindow.cpp" />
+    <ClCompile Include="interface\msgwindow.cpp" />
+    <ClCompile Include="interface\proess.cpp" />
+    <ClCompile Include="interface\scroll.cpp" />
+    <ClCompile Include="interface\window.cpp" />
+    <ClCompile Include="Menu\Magic.cpp" />
+    <ClCompile Include="menu\arm.cpp" />
+    <ClCompile Include="menu\goods.cpp" />
+    <ClCompile Include="menu\help.cpp" />
+    <ClCompile Include="menu\loadsave.cpp" />
+    <ClCompile Include="menu\menu.cpp" />
+    <ClCompile Include="menu\menutop.cpp" />
+    <ClCompile Include="menu\rolesel.cpp" />
+    <ClCompile Include="menu\state.cpp" />
+    <ClCompile Include="menu\system.cpp" />
+    <ClCompile Include="menu\title.cpp" />
+    <ClCompile Include="fight\Fight.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\temp\debug\Fight/</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\temp\release\fight/</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="fight\FightInit.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\temp\debug\Fight/</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\temp\release\fight/</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Fight\FightMagic.cpp" />
+    <ClCompile Include="fight\fightgoods.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\temp\debug\Fight/</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\temp\release\fight/</ObjectFileName>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="events.h" />
+    <ClInclude Include="findpath.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="message.h" />
+    <ClInclude Include="npc.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="role.h" />
+    <ClInclude Include="script.h" />
+    <ClInclude Include="talk.h" />
+    <ClInclude Include="gamelib\Goldpoint.h" />
+    <ClInclude Include="gamelib\Goldpoint2.h" />
+    <ClInclude Include="gamelib\Gp_alpha.h" />
+    <ClInclude Include="gamelib\Gp_ani.h" />
+    <ClInclude Include="gamelib\Gp_avi.h" />
+    <ClInclude Include="gamelib\Gp_draw.h" />
+    <ClInclude Include="gamelib\Gp_iniset.h" />
+    <ClInclude Include="gamelib\Gp_init.h" />
+    <ClInclude Include="gamelib\Gp_input.h" />
+    <ClInclude Include="gamelib\Gp_music.h" />
+    <ClInclude Include="gamelib\Gp_other.h" />
+    <ClInclude Include="gamelib\Gp_sound.h" />
+    <ClInclude Include="gamelib\Gp_text.h" />
+    <ClInclude Include="gamelib\ddutil.h" />
+    <ClInclude Include="interface\button.h" />
+    <ClInclude Include="interface\check.h" />
+    <ClInclude Include="interface\interface.h" />
+    <ClInclude Include="interface\interface2.h" />
+    <ClInclude Include="interface\listwindow.h" />
+    <ClInclude Include="interface\msgwindow.h" />
+    <ClInclude Include="interface\proess.h" />
+    <ClInclude Include="interface\scroll.h" />
+    <ClInclude Include="interface\window.h" />
+    <ClInclude Include="Menu\Magic.h" />
+    <ClInclude Include="menu\arm.h" />
+    <ClInclude Include="menu\goods.h" />
+    <ClInclude Include="menu\help.h" />
+    <ClInclude Include="menu\loadsave.h" />
+    <ClInclude Include="menu\menu.h" />
+    <ClInclude Include="menu\menu_inc.h" />
+    <ClInclude Include="menu\menu_inc2.h" />
+    <ClInclude Include="menu\menutop.h" />
+    <ClInclude Include="menu\rolesel.h" />
+    <ClInclude Include="menu\state.h" />
+    <ClInclude Include="menu\system.h" />
+    <ClInclude Include="menu\title.h" />
+    <ClInclude Include="fight\Fight.h" />
+    <ClInclude Include="Fight\FightMagic.h" />
+    <ClInclude Include="fight\fightgoods.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sword.ico" />
+    <None Include="README.TXT" />
+    <None Include="..\圣II历程 －打造双刃剑.doc" />
+    <None Include="..\圣二源程序导读.doc" />
+    <None Include="..\打造你自己的RPG.doc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
