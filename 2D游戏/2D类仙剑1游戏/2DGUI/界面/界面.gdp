@@ -1,0 +1,45 @@
+<Project
+	CID = "1"
+	Title = "½çÃæ"
+	NextCID = "3"
+	IconCategory = "Documents">
+	<Links
+		CID = "1">
+		<Link
+			RootPath = "$Application"
+			Filename = "Design Collection.gdp"
+			RelativePath = ".\Samples\Design Collection\"/>
+		<Link
+			RootPath = "$Application"
+			Filename = "Standard Components.gdp"
+			RelativePath = ".\Samples\Standard Components\"/>
+		<Link
+			RootPath = "$Application"
+			Filename = "Tutorial.gdp"
+			RelativePath = ".\Samples\Tutorial\"/>
+		<Link
+			RootPath = "$Application"
+			Filename = "Welcome.gdp"
+			RelativePath = ".\Samples\Welcome\"/>
+		<Link
+			RootPath = "$Application"
+			Filename = "Wizard Example.gdp"
+			RelativePath = ".\Samples\Wizard Example\"/>
+	</Links>
+	<OpenFiles
+		CID = "2"
+		LastActive = "2">
+		<File
+			RootPath = "$Application"
+			RelativePathname = ".\Samples\Design Collection\Combo Boxes\PlanetsTestDialog.gui"
+			ViewSettings = ""/>
+		<File
+			RootPath = "$Application"
+			RelativePathname = ".\Samples\Design Collection\Combo Boxes\ComboBoxDialog.gui"
+			ViewSettings = ""/>
+		<File
+			RootPath = "$Application"
+			RelativePathname = ".\Samples\Design Collection\Combo Boxes\Planets_DropDown.gui"
+			ViewSettings = ""/>
+	</OpenFiles>
+</Project>
