@@ -1,8 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mapedit", "MAPEDIT\mapedit.vcxproj", "{3ED910D1-F5BC-A58B-CF03-0FF419C349AF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mapedit", "MAPEDIT\mapedit.vcxproj", "{3EB20940-D5AE-89BA-62A1-9F909C90BBAF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sword2", "sword2.vcxproj", "{3D296EB4-1F0A-FB0E-98C6-CE6E9E014931}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sword2", "sword2.vcxproj", "{B1A415FE-CCEA-2D42-359F-C60DFA2A330F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,10 +10,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3ED910D1-F5BC-A58B-CF03-0FF419C349AF}.Debug|Win32.ActiveCfg = Debug|Win32
-		{3ED910D1-F5BC-A58B-CF03-0FF419C349AF}.Release|Win32.ActiveCfg = Release|Win32
-		{3D296EB4-1F0A-FB0E-98C6-CE6E9E014931}.Debug|Win32.ActiveCfg = Debug|Win32
-		{3D296EB4-1F0A-FB0E-98C6-CE6E9E014931}.Release|Win32.ActiveCfg = Release|Win32
+		{3EB20940-D5AE-89BA-62A1-9F909C90BBAF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3EB20940-D5AE-89BA-62A1-9F909C90BBAF}.Release|Win32.ActiveCfg = Release|Win32
+		{B1A415FE-CCEA-2D42-359F-C60DFA2A330F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1A415FE-CCEA-2D42-359F-C60DFA2A330F}.Release|Win32.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
