@@ -17,6 +17,15 @@
     <Filter Include="Core\Core include">
       <UniqueIdentifier>{4eb820dc-f73f-4cf6-9b13-1d2888a60d11}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{ef58d298-2f4f-4358-a106-cd2783bc43d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\UI Include">
+      <UniqueIdentifier>{36a09d6e-ac41-4414-81d6-4ca8573b0d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\UI Source">
+      <UniqueIdentifier>{d37bac58-e2f7-4ec8-8589-b7666c98f359}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mend.h">
@@ -24,6 +33,9 @@
     </ClInclude>
     <ClInclude Include="MendTypes.h">
       <Filter>Core\Core include</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>UI\UI Include</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
