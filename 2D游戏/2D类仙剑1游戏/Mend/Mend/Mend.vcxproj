@@ -74,7 +74,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="button.h" />
+    <ClInclude Include="MendButton.h" />
+    <ClInclude Include="MendMath.h" />
     <ClInclude Include="Mend.h" />
     <ClInclude Include="MendTypes.h" />
   </ItemGroup>

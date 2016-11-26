@@ -26,6 +26,15 @@
     <Filter Include="UI\UI Source">
       <UniqueIdentifier>{d37bac58-e2f7-4ec8-8589-b7666c98f359}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{713e6809-a256-4a71-8e4d-a6d8b9cacfca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Math Include">
+      <UniqueIdentifier>{4469efab-cea8-4184-9d35-e1832d350557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Math Source">
+      <UniqueIdentifier>{fb64c602-959b-4ad3-bf0e-4dca310f3d74}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mend.h">
@@ -34,7 +43,10 @@
     <ClInclude Include="MendTypes.h">
       <Filter>Core\Core include</Filter>
     </ClInclude>
-    <ClInclude Include="button.h">
+    <ClInclude Include="MendMath.h">
+      <Filter>Math\Math Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MendButton.h">
       <Filter>UI\UI Include</Filter>
     </ClInclude>
   </ItemGroup>
