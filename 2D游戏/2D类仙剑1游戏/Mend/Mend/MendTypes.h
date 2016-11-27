@@ -43,7 +43,14 @@ namespace Mend
 
 		//! 64 bit floating point variable.
 		/** This is a typedef for double, it ensures portability of the engine. */
-		typedef double				f64; 
+		typedef double				f64;
+		typedef MendMath::MendPoint POSITION;
+
+		enum MendBool
+		{
+			MendFalse=0,
+			MendTrue=1
+		};
 	}
 }
 

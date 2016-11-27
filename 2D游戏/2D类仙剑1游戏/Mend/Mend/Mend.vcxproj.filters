@@ -35,6 +35,24 @@
     <Filter Include="Math\Math Source">
       <UniqueIdentifier>{fb64c602-959b-4ad3-bf0e-4dca310f3d74}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{2d98aeaf-cb36-4992-8adb-1513ffc17f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\Database Include">
+      <UniqueIdentifier>{86397f24-4eb2-4b63-aee0-d52e95ba5c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{09665ae7-1e93-42a0-82f5-b4e999c8d67b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Script Include">
+      <UniqueIdentifier>{8021b397-f9f1-496f-b9d7-99bc8b2cbb04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Script Source">
+      <UniqueIdentifier>{2063bc50-78f4-426f-9439-cc13cc536d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\System Source">
+      <UniqueIdentifier>{c557ef39-7aef-4200-bffb-6e3dee96a241}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mend.h">
@@ -49,5 +67,28 @@
     <ClInclude Include="MendButton.h">
       <Filter>UI\UI Include</Filter>
     </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>System\System include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>System\System include</Filter>
+    </ClInclude>
+    <ClInclude Include="MendDB.h">
+      <Filter>Database\Database Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MendIScript.h">
+      <Filter>Script\Script Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MendCScript.h">
+      <Filter>Script\Script Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MendCScript.cpp">
+      <Filter>Script\Script Source</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>System\System Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

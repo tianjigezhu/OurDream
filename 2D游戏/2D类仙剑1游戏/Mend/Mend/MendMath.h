@@ -7,7 +7,7 @@ namespace Mend
 	{
 		struct MendPoint
 		{
-			int x, y;
+			MendTypes::u32 x, y;
 		};
 	}
 }
