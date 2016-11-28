@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene>
+	<SceneMap>
+		<DBID>10</DBID>
+		<ObjID>1</ObjID>
+		<ObjSize>
+			<ObjSizeX>10</ObjSizeX>
+			<ObjSizeY>10</ObjSizeY>
+		</ObjSize>
+		<name>洛阳城</name>
+	</SceneMap>
+	<SceneSpirit>
+		<DBID>2</DBID>
+		<ObjID>2</ObjID>
+		<name>食尸鬼</name>
+		<ObjSize>
+			<ObjSizeX>10</ObjSizeX>
+			<ObjSizeY>10</ObjSizeY>
+		</ObjSize>
+		<ObjCountAndPos>
+			<ObjCount>14</ObjCount>
+			<ObjPos>
+
+			</ObjPos>
+		</ObjCount>
+		<ScenePlot>../Plot/plot1.txt</ScenePlot>
+	</SceneSpirit>
+	<SceneNpc>
+		<DBID>5</DBID>
+		<ObjID>16</ObjID>
+		<name>村长</name>
+		<ObjSize>
+			<ObjSizeX>20</ObjSizeX>
+			<ObjSizeY>20</ObjSizeY>
+		</ObjSize>
+		<ObjCountAndPos>
+			<ObjCount>1</ObjCount>
+			<ObjPos>
+				<ObjPosX>16</ObjPosX>
+				<ObjPosY>17</ObjPosY>
+			</ObjPos>
+			<SceneNpcTask>../Task/Task1.txt</SceneNpcTask>
+		</ObjCount>
+</Scene>
