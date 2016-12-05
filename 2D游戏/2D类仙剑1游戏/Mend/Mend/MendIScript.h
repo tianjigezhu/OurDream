@@ -1,7 +1,10 @@
 #ifndef _MEND_ISCRIPT_H_
 #define _MEND_ISCRIPT_H_
 
-#include "engine.h"
+#include "defines.h"
+
+#include "MendTypes.h"
+#include "MendDB.h"
 
 namespace Mend
 {
@@ -17,13 +20,19 @@ namespace Mend
 			union
 			{
 				MendTypes::POSITION pos;
-				char name[SCRIPTSTAGEELENAME];
-				char path[SCRIPTSTAGEELEPATH];
+				wchar_t name[SCRIPTSTAGEELENAME];
+				wchar_t path[SCRIPTSTAGEELEPATH];
+
+				/*MendTypes::c8 name[SCRIPTSTAGEELENAME];
+				MendTypes::c8 path[SCRIPTSTAGEELEPATH];*/
 			};
 			union
 			{
-				char prevStage[SCRIPTSTAGEPATH];
-				char nextStage[SCRIPTSTAGEPATH];
+				wchar_t prevstage[SCRIPTSTAGEPATH];
+				wchar_t nextstage[SCRIPTSTAGEPATH];
+
+				/*MendTypes::c8 prevStage[SCRIPTSTAGEPATH];
+				MendTypes::c8 nextStage[SCRIPTSTAGEPATH];*/
 			};
 			PSSCRIPTSTAGEELEMENT pNext;
 		};
@@ -37,13 +46,15 @@ namespace Mend
 			virtual void close(void)=0;
 			virtual MendTypes::MendBool hasNextStageEle(void)=0;
 			virtual MendDatabase::DBELE_TYPE getStageEleID(void)=0;
-			virtual const char* getStageEleName(void)=0;
-			virtual const char* getStageElePath(void)=0;
+			virtual const wchar_t* getStageEleName(void)=0;
+			virtual const wchar_t* getStageElePath(void)=0;
+			/*virtual MendTypes::pc8 getStageEleName(void)=0;
+			virtual const wchar_t* getStageElePath(void)=0;*/
 			virtual MendTypes::POSITION getStageElePos(void)=0;
 			virtual MendTypes::MendBool hasNextStage(void)=0;
 			virtual MendTypes::MendBool hasPrevStage(void)=0;
 		protected:
-			virtual void init(const char *scriptName)=0;
+			virtual void init(const wchar_t *scriptName)=0;
 		};
 	}
 }

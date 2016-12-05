@@ -1,14 +1,18 @@
 #ifndef _MEND_MATH_H_
 #define _MEND_MATH_H_
 
+#include "MendTypes.h"
+
 namespace Mend
 {
 	namespace MendMath
 	{
+		/*template typename<T>
 		struct MendPoint
 		{
-			MendTypes::u32 x, y;
-		};
+			T x;
+			T y;
+		};*/
 	}
 }
 

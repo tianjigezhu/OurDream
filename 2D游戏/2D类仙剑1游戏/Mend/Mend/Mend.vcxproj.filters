@@ -53,6 +53,18 @@
     <Filter Include="System\System Source">
       <UniqueIdentifier>{c557ef39-7aef-4200-bffb-6e3dee96a241}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{845438ed-f587-41a2-ae04-5d1e04b417e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\Memory Source">
+      <UniqueIdentifier>{268a9749-ecf2-4b6d-a98e-6024d0fa7838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\Memory Include">
+      <UniqueIdentifier>{950cb348-3bf3-471a-a21e-1a5945f0c975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{dc3b6a29-3e55-422c-b8cb-e60e2eb5cc72}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mend.h">
@@ -82,6 +94,12 @@
     <ClInclude Include="MendCScript.h">
       <Filter>Script\Script Include</Filter>
     </ClInclude>
+    <ClInclude Include="MendCMemory.h">
+      <Filter>Memory\Memory Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MendObject.h">
+      <Filter>Core\Core include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MendCScript.cpp">
@@ -89,6 +107,12 @@
     </ClCompile>
     <ClCompile Include="engine.cpp">
       <Filter>System\System Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MendCMemory.cpp">
+      <Filter>Memory\Memory Source</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Test</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

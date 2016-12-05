@@ -40,5 +40,6 @@
 				<ObjPosY>17</ObjPosY>
 			</ObjPos>
 			<SceneNpcTask>../Task/Task1.txt</SceneNpcTask>
-		</ObjCount>
+			<SceneDrama>../Drama/Drama.txt</SceneDrama>
+	</SceneNpc>
 </Scene>
